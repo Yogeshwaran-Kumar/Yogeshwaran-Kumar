@@ -26,7 +26,7 @@
 
   <br>
 
-  <!-- About Me Section -->
+  <!-- About Me -->
   <h3><strong>📌 About Me</strong></h3>
   <p align="center" style="max-width: 650px;">
     <b>I am a Computer Science & Business Systems (B.Tech CSBS) undergraduate with a strong foundation in software engineering, backend systems, and applied AI.</b><br>
@@ -42,32 +42,100 @@
 
   <br><br>
 
-  <!-- Projects Section -->
-  <h3><strong>🚀 Featured Projects</strong></h3>
-
-  <p align="center">
-    🛡️ <b><a href="https://github.com/Yogeshwaran-Kumar/ZaferPay">ZaferPay</a></b><br>
-    <i>Real-time Zero-Trust UPI fraud detection engine with inline pre-execution risk scoring (<15ms) and cryptographic data vault.</i>
-  </p>
-
-  <p align="center">
-    🌐 <b><a href="https://github.com/Yogeshwaran-Kumar/POLARIUM">POLARIUM</a></b><br>
-    <i>Sovereign polar scientific repository with interactive 3D WebGL globe & hybrid RAG search for MoES/NCPOR.</i>
-  </p>
-
-  <p align="center">
-    🎙️ <b><a href="https://github.com/Yogeshwaran-Kumar/Vertical-QA">Vertical-QA</a></b><br>
-    <i>AI-powered real-time call center quality auditor combining streaming ASR, acoustic emotion recognition, and escalation triage.</i>
-  </p>
-
-  <p align="center">
-    🏃 <b><a href="https://github.com/Yogeshwaran-Kumar/Smart-Javelin-Tracker">Smart-Javelin-Tracker</a></b><br>
-    <i>High-frequency IoT athletic telemetry system tracking 6-DOF IMU motion data for projectile trajectory reconstruction.</i>
-  </p>
-
-  <p align="center">
-    📊 <b><a href="https://github.com/Yogeshwaran-Kumar/NDLI-Club-MIS">NDLI-Club-MIS</a></b><br>
-    <i>Production management system for 600+ club members with automated algorithmic role allocation and reporting.</i>
-  </p>
+  <!-- Featured Projects Showcase Grid -->
+  <h3><strong>🚀 Featured Projects Showcase</strong></h3>
 
 </div>
+
+<table align="center" width="100%">
+  <tr>
+    <!-- Project 1 -->
+    <td width="50%" valign="top">
+      <a href="https://github.com/Yogeshwaran-Kumar/ZaferPay">
+        <h3>🛡️ ZaferPay</h3>
+      </a>
+      <p><b>Autonomous Zero-Trust UPI Fraud Interception Engine</b></p>
+      <p>Evaluates 61 heuristics & 28 ML features in <b>&lt;15ms</b> before PIN entry. Features AES-256 Fernet vault with HMAC-SHA256 blind indexing.</p>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+        <img src="https://img.shields.io/badge/Isolation_Forest-orange?style=flat-square" alt="ML"/>
+      </p>
+      <p>🏆 <b>Winner — Mastek Project DeepBlue S11 (₹1.5L Grant)</b><br>
+      📜 <i>Published Indian Patent (Govt. of India)</i></p>
+    </td>
+
+    <!-- Project 2 -->
+    <td width="50%" valign="top">
+      <a href="https://github.com/Yogeshwaran-Kumar/POLARIUM">
+        <h3>🌐 POLARIUM</h3>
+      </a>
+      <p><b>Sovereign Polar Scientific Knowledge & Hybrid RAG Platform</b></p>
+      <p>Centralizes 40+ years of Antarctic & Arctic research. Features an interactive 60 FPS 3D WebGL globe with strict page-level citation RAG.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js_15-black?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+        <img src="https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white" alt="Three.js"/>
+        <img src="https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector"/>
+        <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="HuggingFace"/>
+      </p>
+      <p>🏛️ <b>Ministry of Earth Sciences (MoES / NCPOR)</b><br>
+      ⚡ <i>Monograph synthesis time cut from 3 days to &lt;30s</i></p>
+    </td>
+  </tr>
+
+  <tr>
+    <!-- Project 3 -->
+    <td width="50%" valign="top">
+      <a href="https://github.com/Yogeshwaran-Kumar/Vertical-QA">
+        <h3>🎙️ Vertical-QA</h3>
+      </a>
+      <p><b>Multimodal Real-Time AI Call Center Quality Auditor</b></p>
+      <p>Streams 16kHz audio via WebSockets (<150ms). Dual-speed pipeline decouples SpeechBrain acoustic emotion detection from streaming ASR.</p>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
+        <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets"/>
+        <img src="https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/SpeechBrain-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="SpeechBrain"/>
+      </p>
+      <p>🥇 <b>Winner — Buildathon 2026</b><br>
+      ⚡ <i>Real-time agent coaching & acoustic escalation matrix</i></p>
+    </td>
+
+    <!-- Project 4 -->
+    <td width="50%" valign="top">
+      <a href="https://github.com/Yogeshwaran-Kumar/Smart-Javelin-Tracker">
+        <h3>🏃 Smart-Javelin-Tracker</h3>
+      </a>
+      <p><b>IoT Athletic Telemetry & Projectile Motion Reconstruction</b></p>
+      <p>Captures 200 Hz 6-DOF IMU motion streams via ESP32 Wi-Fi SoftAP. Performs numerical drift compensation to model 3D flight trajectories.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
+        <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"/>
+        <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
+        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
+      </p>
+      <p>💰 <b>Secured ₹3 Lakh EDA Research Grant</b><br>
+      📊 <i>Side-by-side comparative throw analytics dashboard</i></p>
+    </td>
+  </tr>
+
+  <tr>
+    <!-- Project 5 -->
+    <td colspan="2" width="100%" valign="top" align="left">
+      <a href="https://github.com/Yogeshwaran-Kumar/NDLI-Club-MIS">
+        <h3>📊 NDLI-Club-MIS — Production Club Operations & Allocation System</h3>
+      </a>
+      <p>Internal web platform deployed for <b>600+ active club members</b> across 20+ annual events. Implemented an algorithmic role-allocation engine based on historical participation scores, granular PostgreSQL Row-Level Security (RLS) for PII isolation, and automated single-click Excel reporting saving 15+ admin hours/term.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js_15-black?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/>
+        <img src="https://img.shields.io/badge/PostgreSQL_RLS-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
+        <img src="https://img.shields.io/badge/Shadcn_UI-000000?style=flat-square" alt="Shadcn"/>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br>
